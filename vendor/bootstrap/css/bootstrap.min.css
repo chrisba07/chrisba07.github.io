@@ -2637,7 +2637,7 @@ fieldset[disabled] a.btn {
 
 .btn-light.focus,
 .btn-light:focus {
-    box-shadow: 0 0 0 .2rem rgba(248, 249, 250, .5)
+    box-shadow: 0 0 0 .2rem rgba(248, 249, 250, 0)
 }
 
 .btn-light.disabled,
@@ -2652,7 +2652,7 @@ fieldset[disabled] a.btn {
     color: #111;
     background-color: #dae0e5;
     border-color: #d3d9df;
-    box-shadow: 0 0 0 .2rem rgba(248, 249, 250, .5)
+    box-shadow: 0 0 0 .2rem rgba(248, 249, 250, 0)
 }
 
 .btn-dark {
