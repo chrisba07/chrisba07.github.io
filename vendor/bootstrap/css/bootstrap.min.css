@@ -2432,7 +2432,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-primary {
-    color: #fff;
+    color: #ffc400;
     background-color: #007bff;
     border-color: #007bff
 }
@@ -2893,9 +2893,9 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-light:hover {
-    color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa
+    color: #000;
+    background-color: #ffc400;
+    border-color: #ffc400
 }
 
 .btn-outline-light.focus,
