@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto','Helvetica Neue', Arial, sans-serif;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -45,11 +45,11 @@ h6 {
 }
 
 .bg-primary {
-    background-color: #000000!important
+    background-color: #000000 !important
 }
 
 .bg-dark {
-    background-color: #212529!important
+    background-color: #212529 !important
 }
 
 .text-faded {
@@ -127,7 +127,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-    color: #000000!important;
+    color: #000000 !important;
     background-color: transparent
 }
 
@@ -432,7 +432,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .text-primary {
-    color: #000000!important
+    color: #000000 !important
 }
 
 .btn {
@@ -468,17 +468,17 @@ form .row:first-child .floating-label-form-group {
 .btn-primary:focus,
 .btn-primary:hover {
     color: #000;
-    background-color: #ffc400!important
+    background-color: #ffc400 !important
 }
 
 .btn-primary:active,
 .btn-primary:focus {
-    box-shadow: 0 0 0 .2rem rgba(0, 0, 0, 0)!important
+    box-shadow: 0 0 0 .2rem rgba(0, 0, 0, 0) !important
 }
 
 .btn-social:active,
 .btn-social:focus {
-    box-shadow: 0 0 0 .2rem rgba(0, 0, 0, 0)!important
+    box-shadow: 0 0 0 .2rem rgba(0, 0, 0, 0) !important
 }
 
 .navbar-toggler-right {
@@ -702,16 +702,27 @@ pre {
     }
 }
 
-#about {
-    background: url(../img/headerfinal.png) #231f20 no-repeat;
-    background-attachment: fixed;
-    height: 250%;
-    background-size: cover;
-    z-index: 1
+@media (min-width: 992px) {
+    #about {
+        background: url(../img/headerfinal.png) #231f20 no-repeat;
+        background-attachment: fixed;
+        height: 150%;
+        background-size: cover;
+        z-index: 1
+    }
+}
+
+@media (max-width: 991px) {
+    #about {
+        background: url(../img/small-screen.png) #231f20 no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        z-index: 1
+    }
 }
 
 .text-accent-color {
-    color: #ffc400!important
+    color: #ffc400 !important
 }
 
 #video-landing {
@@ -727,13 +738,26 @@ pre {
     z-index: -100;
 }
 
-.about-text {
-    color: white;
-    line-height: 1.5;
-    /*font-size: 72px;*/
+@media(min-width:992px) {
+    .about-text {
+        color: white;
+        line-height: 1.5;
+        text-align: right;
+    }
+}
+
+@media(max-width:991px) {
+    .about-text {
+        text-align: center;
+    }
 }
 
 
+@media(min-width:992px) {
+    .small-picture {
+        display: none;
+    }
+}
 
 .parascroll {
     min-height: 1000px;
