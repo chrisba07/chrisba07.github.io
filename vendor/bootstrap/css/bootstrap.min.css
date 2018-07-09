@@ -3000,6 +3000,12 @@ fieldset[disabled] a.btn {
     margin-top: .5rem
 }
 
+@media (max-width:767px) {
+    .hidden-xs {
+        display: none!important
+    }
+}
+
 input[type=button].btn-block,
 input[type=reset].btn-block,
 input[type=submit].btn-block {
