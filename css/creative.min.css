@@ -702,7 +702,7 @@ pre {
     }
 }
 
-@media (min-width: 992px) {
+@media(min-width: 992px) {
     #about {
         background: url(../img/headerfinal.png) #231f20 no-repeat;
         background-attachment: fixed;
@@ -712,7 +712,7 @@ pre {
     }
 }
 
-@media (max-width: 991px) {
+@media(max-width: 991px) {
     #about {
         background: url(../img/small-screen.png) #231f20 no-repeat;
         background-attachment: fixed;
@@ -770,18 +770,9 @@ pre {
 }
 
 
-#story-freext > div:nth-of-type(1) {
-    background: url(../img/nike-bg.jpeg) 50% 0 no-repeat fixed;
-    margin: 0;
-    height: 1600px;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-#story-freext > div:nth-of-type(2) {
-    background: url(../img/nike.png) 50% 0 no-repeat fixed;
+@media (min-width:768px){
+#web-design > div:nth-of-type(1) {
+    background: url(../img/web-design.png) 50% 0 no-repeat fixed;
     margin: 0;
     height: 1600px;
     position: absolute;
@@ -789,28 +780,17 @@ pre {
     left: 100px;
     width: 100%;
 }
-
-#bottle > div:nth-of-type(1) {
-    background: url(../img/bottle.jpeg) 50% 0 no-repeat fixed;
-    margin: 0;
-    height: 1200px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
 }
 
+
 section h1 {
-    color: #4F9426;
+    color: #ffc400;
     width: 300px;
     font-size: 65px;
     margin-bottom: 14px;
+    margin-top: 50px
 }
 
-section p {
-    color: black;
-    width: 300px;
-}
 
 section article {
     position: absolute;
@@ -818,11 +798,4 @@ section article {
     left: 40px;
     width: 300px;
     z-index: 4;
-}
-
-.parallax-item {
-    position: absolute;
-    z-index: 5;
-    top: 40px;
-    left: 400px;
 }
