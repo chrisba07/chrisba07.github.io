@@ -44,6 +44,10 @@ h6 {
     font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
+h3 {
+    font-size: 28px
+}
+
 .bg-primary {
     background-color: #000000 !important
 }
@@ -509,7 +513,10 @@ form .row:first-child .floating-label-form-group {
     width: auto
 }
 
-#services {}
+#services {
+    background-color: #ffc400;
+    margin-bottom: 5rem
+}
 
 .design {
     position: relative;
@@ -706,7 +713,6 @@ pre {
     #about {
         background: url(../img/headerfinal.png) #231f20 no-repeat;
         background-attachment: fixed;
-        height: 150%;
         background-size: cover;
         z-index: 1
     }
@@ -725,12 +731,7 @@ pre {
     color: #ffc400 !important
 }
 
-#video-landing {
-    height: 500px;
-    position: relative;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
+
 
 #video-landing video {
     width: 100%;
@@ -757,45 +758,4 @@ pre {
     .small-picture {
         display: none;
     }
-}
-
-.parascroll {
-    min-height: 1000px;
-    position: relative;
-    width: 100% !important;
-    /*min-width: 1000px;*/
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-
-@media (min-width:768px){
-#web-design > div:nth-of-type(1) {
-    background: url(../img/web-design.png) 50% 0 no-repeat fixed;
-    margin: 0;
-    height: 1600px;
-    position: absolute;
-    top: 0px;
-    left: 100px;
-    width: 100%;
-}
-}
-
-
-section h1 {
-    color: #ffc400;
-    width: 300px;
-    font-size: 65px;
-    margin-bottom: 14px;
-    margin-top: 50px
-}
-
-
-section article {
-    position: absolute;
-    top: 240px;
-    left: 40px;
-    width: 300px;
-    z-index: 4;
 }
