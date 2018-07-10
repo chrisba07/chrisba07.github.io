@@ -742,7 +742,7 @@ pre {
 @media(min-width:992px) {
     .about-text {
         color: white;
-        line-height: 1.5;
+        line-height: 3;
         text-align: right;
     }
 }
