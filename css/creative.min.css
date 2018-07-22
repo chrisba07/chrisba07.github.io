@@ -515,7 +515,10 @@ form .row:first-child .floating-label-form-group {
 
 #services {
     background-color: #ffc400;
-    margin-bottom: 5rem
+}
+
+#portfolio {
+    background-color: #ffc400;
 }
 
 .design {
@@ -759,3 +762,5 @@ pre {
         display: none;
     }
 }
+
+
