@@ -323,7 +323,7 @@ header.masthead p {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(0, 0, 0, .9);
+    background: rgba(0, 0, 0, .8);
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s
@@ -431,8 +431,10 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #000000;
-    color: #fff;
+    background: url(../img/footer.png) #231f20 no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000;
 }
 
 .text-primary {
@@ -453,8 +455,8 @@ form .row:first-child .floating-label-form-group {
     font-size: 1.25rem;
     line-height: 2rem;
     border-width: 2px;
-    border: 2px solid #ffc400;
-    color: #ffc400
+    border: 2px solid #000;
+    color: #000
 }
 
 .btn-xl {
