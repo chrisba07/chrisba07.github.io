@@ -106,7 +106,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-    font-weight: 700;
+    font-weight: normal;
     text-transform: uppercase;
     color: #000000;
     font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif
@@ -757,6 +757,7 @@ pre {
 @media(max-width:991px) {
     .about-text {
         text-align: center;
+        line-height: 1.5;
     }
 }
 
