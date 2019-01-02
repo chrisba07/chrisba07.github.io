@@ -39,17 +39,17 @@ $(function () {
                     $('#success > .alert-success')
                         .append('</div>');
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    //$('#contactForm').trigger("reset");
                 },
                 error: function () {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!"));
+                    $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that the mail server is not responding. Please send me your details by email to hello@chrisba-design.com"));
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    //$('#contactForm').trigger("reset");
                 },
                 complete: function () {
                     setTimeout(function () {
