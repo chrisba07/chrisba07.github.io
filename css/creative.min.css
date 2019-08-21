@@ -246,6 +246,18 @@ header.masthead p {
     max-width: 400px
 }
 
+.service-box img {
+    transition: transform 1s;
+}
+
+.service-box:hover img {
+    -webkit-transform:scale(1.3); /* Safari and Chrome */
+    -moz-transform:scale(1.3); /* Firefox */
+    -ms-transform:scale(1.3); /* IE 9 */
+    -o-transform:scale(1.3); /* Opera */
+     transform:scale(1.3);
+}
+
 .portfolio {
     margin-bottom: -15px;
 }
@@ -324,7 +336,8 @@ header.masthead p {
     position: relative;
     display: block;
     max-width: 650px;
-    margin: auto
+    margin: auto;
+    overflow:hidden
 }
 
 
@@ -374,6 +387,18 @@ header.masthead p {
 
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1
+}
+
+.portfolio-box img {
+    transition: transform 1s;
+}
+
+.portfolio-box:hover img {
+    -webkit-transform:scale(1.3); /* Safari and Chrome */
+    -moz-transform:scale(1.3); /* Firefox */
+    -ms-transform:scale(1.3); /* IE 9 */
+    -o-transform:scale(1.3); /* Opera */
+     transform:scale(1.3);
 }
 
 .portfolio-box:focus {
@@ -798,6 +823,7 @@ pre {
     }
 }
 
+
 @media(max-width:991px) {
     .big-screen-about {
         display: none;
@@ -838,3 +864,4 @@ pre {
         margin-top:-4px
     }
 }
+
